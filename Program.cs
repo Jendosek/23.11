@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using ConsoleApp1.Entities;
+using System.Text;
 
 namespace ConsoleApp1
 {
@@ -9,6 +10,7 @@ namespace ConsoleApp1
             Console.InputEncoding = Encoding.Unicode;
             Console.OutputEncoding = Encoding.Unicode;
 
+            Rebuilder.Rebuild(Console.ReadLine());
         }
     }
 }
