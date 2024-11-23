@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using ConsoleApp1.Entities;
+using System.Text;
 
 namespace ConsoleApp1
 {
@@ -9,6 +10,8 @@ namespace ConsoleApp1
             Console.InputEncoding = Encoding.Unicode;
             Console.OutputEncoding = Encoding.Unicode;
 
+            CreditCard creditCard = new CreditCard(2, "John Doe", 123, "12/12/2022");
+            Console.WriteLine(creditCard.ToString());
         }
     }
 }
