@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using ConsoleApp1.Entities;
+using System.Text;
 
 namespace ConsoleApp1
 {
@@ -9,6 +10,8 @@ namespace ConsoleApp1
             Console.InputEncoding = Encoding.Unicode;
             Console.OutputEncoding = Encoding.Unicode;
 
+            ForeignPassport passport = new ForeignPassport("12345678", "Zenya", "20.11");
+            Console.WriteLine(passport.ToString());
         }
     }
 }
