@@ -8,7 +8,7 @@ namespace ConsoleApp1.Entities
 {
     internal class Binary
     {
-        static int ConvertToBinary(string line)
+        public static int ConvertToBinary(string line)
         {
             return Convert.ToInt32(line, 2);
         }

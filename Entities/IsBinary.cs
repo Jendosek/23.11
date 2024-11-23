@@ -8,7 +8,7 @@ namespace ConsoleApp1.Entities
 {
     internal class IsBinary
     {
-        static bool IsBin(string input)
+        public static bool IsBin(string input)
         {
             foreach (char c in input)
             {
